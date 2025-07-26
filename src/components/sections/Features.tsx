@@ -46,11 +46,11 @@ const Features = () => {
           </div>
 
           {/* Description Text */}
-          <div className="mt-10 flex flex-col">
-            <h2 className="w-[406px] h-[38px] md:w-[501px] md:h-[48px] font-sora font-bold text-[38px] md:text-[48px] leading-[100%] text-black mb-4">
+          <div className="mt-10 flex px-3 flex-col">
+            <h2 className="w-[380px] h-[38px] md:w-[501px] md:h-[48px] font-sora font-bold text-[38px] md:text-[48px] leading-[100%] text-black mb-4">
               What is KlipAi
             </h2>
-            <p className="w-[408px] h-[60px] font-sora font-normal md:text-[16px] text-[12px] leading-[15px] capitalize text-black mb-6 md:w-[501px] md:h-[130px]">
+            <p className="w-[380px] h-[60px] font-sora font-normal md:text-[16px] text-[12px] leading-[15px] capitalize text-black mb-6 md:w-[501px] md:h-[130px] ">
               KlipAi is the all-in-one smart wallet layer for Web3.<br className='hidden md:flex' /> We turn every crypto transaction into a clean, AI-powered receipt. You can also send tokens using a simple username. No TX hashes. No wallet address mistakes. <br className='hidden md:flex' /> Just clarity, control, and convenience.
             </p>
           </div>
@@ -128,7 +128,7 @@ const Features = () => {
           {/* ===== Secure Transfers Column ===== */}
           <div className="flex flex-col gap-5">
             <OwnershipCard width="w-full" height="h-[409px]" showPlusIcon={false}>
-              <div className="absolute w-[330px] h-[45px] left-[36px] top-[35px] font-sora font-normal text-[36px] leading-[45px] text-white flex justify-center items-center">
+              <div className="absolute w-[330px] h-[45px] left-[10px] top-[35px] font-sora font-normal text-[36px] leading-[45px] text-white flex justify-center items-center">
                 Secure Transfers
               </div>
               <div className='flex justify-center'>
@@ -146,23 +146,23 @@ const Features = () => {
             {/* Balance Cards */}
             <OwnershipCard width="w-full" height="h-[409px]" showPlusIcon={true}>
               <div className="relative w-full h-[400px] flex justify-center">
-                <div className="absolute w-[280px] h-[263px] left-[41.64px] top-[51.88px]">
+                <div className="absolute w-[280px] h-[263px] left-[41.64px] md:left-[60.64px] top-[65.88px]">
                   <Image
                     src="/BalanceCard1.svg"
                     alt="First balance card"
                     width={280}
                     height={263}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full  object-contain"
                     priority
                   />
                 </div>
-                <div className="absolute w-[239px] h-[184px] left-[135.64px] top-[183.88px] backdrop-blur-[2.55px]">
+                <div className="absolute w-[239px] h-[184px] left-[95.64px] md:left-[140.64px] top-[183.88px] backdrop-blur-[2.55px]">
                   <Image
                     src="/BalanceCard2.svg"
                     alt="Second balance card"
                     width={239}
                     height={184}
-                    className="w-full h-full object-contain"
+                    className="w-full h-full  object-contain"
                     priority
                   />
                 </div>
@@ -174,7 +174,7 @@ const Features = () => {
           <div className="flex flex-col gap-5">
             <OwnershipCard width="w-full" height="h-[409px]" showPlusIcon={true}>
               <div className="relative w-full h-full">
-                <div className="absolute left-[37px] top-[66px] w-[313px] h-[241px]">
+                <div className="absolute left-[17px] md:left-[44px] top-[66px] w-[313px] h-[241px]">
                   <Image
                     src="/PerformanceCard1.svg"
                     alt="First performance metric card"
@@ -185,7 +185,7 @@ const Features = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-white/20 mix-blend-overlay rounded-[16px] pointer-events-none" />
                 </div>
-                <div className="absolute left-[186px] top-[201px] w-[202px] h-[173px] backdrop-blur-[5.1px]">
+                <div className="absolute left-[150px] md:left-[175px] top-[201px] w-[202px] h-[173px] backdrop-blur-[5.1px]">
                   <Image
                     src="/PerformanceCard2.svg"
                     alt="Second performance metric card"
@@ -200,26 +200,26 @@ const Features = () => {
             </OwnershipCard>
 
             <OwnershipCard width="w-full" height="h-[409px]" showPlusIcon={true}>
-              <div className="absolute w-[330px] h-[45px] left-[36px] top-[35px] font-sora font-normal text-[36px] leading-[45px] text-white flex justify-center items-center">
+              <div className="absolute w-[330px] h-[45px] left-[15px]  md:left-[36px] top-[40px] font-sora font-normal text-[36px] leading-[45px] text-white flex justify-center items-center">
                 Unique Identity
               </div>
               <div className="relative">
-                <div className="absolute w-[351px] h-[342px] left-[40.64px] top-[107.88px] rounded-[1px]">
+                <div className="absolute w-[351px] h-[342px] left-[20.64px] md:left-[35.64px] top-[107.88px] rounded-[1px]">
                   <Image
                     src="/Identity2.svg"
                     alt="Identity verification overlay"
                     width={351}
                     height={342}
-                    className="absolute scale-[1.2] rounded-[1px]"
+                    className="absolute md:scale-[1.2] rounded-[1px]"
                   />
                 </div>
-                <div className="absolute w-[351px] h-[342px] left-[29.64px] top-[120.88px] rounded-[1px]">
+                <div className="absolute w-[351px] h-[342px] md:left-[29.64px] left-[12.64px] top-[120.88px] rounded-[1px]">
                   <Image
                     src="/Identity1.svg"
                     alt="Base identity card"
                     width={351}
                     height={342}
-                    className="absolute scale-[1.2] rounded-[1px]"
+                    className="absolute md:scale-[1.2] rounded-[1px]"
                   />
                 </div>
               </div>
