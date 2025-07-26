@@ -2,10 +2,10 @@ import React from 'react'
 import Image from "next/image";
 const Features = () => {
     return (
-        <div className=" h-[597px] flex md:gap-[63px] flex-col md:flex-row md:h-[775px] md:mt-20 items-center justify-center">
-
+        <div className=" h-[597px] flex  md:h-[775px] md:mt-20">
+            <div className='w-[1400px] h-[631px] md:rounded-[8px] md:mt-20 md:mx-20 md:p-80px items-center justify-center md:border-[2px] md:border-[#EDEDED] flex flex-col md:flex-row md:gap-[63px]'>
             {/* Visuals */}
-
+        
             <div className="w-[408px] h-[341px] overflow-hidden relative flex flex-col items-center  rounded-[8.86px] border-[1.11px] border-[#EDEDED] bg-[#F4F2F0] md:w-[668px] md:h-[471px]" >
 
                 <Image
@@ -31,7 +31,7 @@ const Features = () => {
                     alt="BitCard2"
                     width={245}
                     height={51}
-                    className="absolute left-[262px]   md:left-[437px] md:top-[289px]  top-[181px] z-10 md:w-[370px]  "
+                    className="absolute left-[262px]   md:left-[437px] md:top-[289px]  top-[135px] z-10 md:w-[370px]  "
                     priority
                 />
             </div>
@@ -46,7 +46,7 @@ const Features = () => {
                     KlipAi is the all-in-one smart wallet layer for Web3.<br className='hidden md:flex'/> We turn every crypto transaction into a clean, AI-powered receipt. You can also send tokens using a simple username. No TX hashes. No wallet address mistakes. <br className='hidden md:flex'/> Just clarity, control, and convenience.
                 </p>
             </div>
-        </div>
+        </div></div>
     )
 }
 

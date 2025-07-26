@@ -14,7 +14,7 @@ const Hero = () => {
       </h1>
 
       {/* Phone and Visuals */}
-      <div className="md:order-4 relative flex items-center justify-center">
+      <div className="md:order-4 relative flex items-center justify-center ">
         <div className="relative w-[380px] h-[476px] md:w-[586px] md:h-[586px]">
           {/* Green Blur */}
           <div className="absolute top-[281px] md:top-[418px] left-1/2 -translate-x-1/2 w-[588px] h-[417px] md:w-[666px] md:h-[415px] bg-[#51FC8B] blur-[300px] rounded-full z-0 " />
