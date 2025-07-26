@@ -27,7 +27,7 @@ const Features = () => {
             />
 
             <Image
-              src="/bitCard1.png"
+              src="/BitCard1.png"
               alt="First credit card design"
               width={161}
               height={43}
@@ -36,7 +36,7 @@ const Features = () => {
             />
 
             <Image
-              src="/bitCard2.png"
+              src="/BitCard2.png"
               alt="Second credit card design"
               width={245}
               height={51}
@@ -113,7 +113,7 @@ const Features = () => {
                 />
                 <div className="absolute bottom-0 left-0 right-0 h-[120px] z-9">
                   <Image
-                    src="/bars.png"
+                    src="/Bars.png"
                     alt="Performance chart bars"
                     width={409}
                     height={120}
@@ -148,7 +148,7 @@ const Features = () => {
               <div className="relative w-full h-[400px] flex justify-center">
                 <div className="absolute w-[280px] h-[263px] left-[41.64px] top-[51.88px]">
                   <Image
-                    src="/balancecard1.svg"
+                    src="/BalanceCard1.svg"
                     alt="First balance card"
                     width={280}
                     height={263}
@@ -158,7 +158,7 @@ const Features = () => {
                 </div>
                 <div className="absolute w-[239px] h-[184px] left-[135.64px] top-[183.88px] backdrop-blur-[2.55px]">
                   <Image
-                    src="/balancecard2.svg"
+                    src="/BalanceCard2.svg"
                     alt="Second balance card"
                     width={239}
                     height={184}
@@ -176,7 +176,7 @@ const Features = () => {
               <div className="relative w-full h-full">
                 <div className="absolute left-[37px] top-[66px] w-[313px] h-[241px]">
                   <Image
-                    src="/performancecard1.svg"
+                    src="/PerformanceCard1.svg"
                     alt="First performance metric card"
                     width={313}
                     height={241}
@@ -187,7 +187,7 @@ const Features = () => {
                 </div>
                 <div className="absolute left-[186px] top-[201px] w-[202px] h-[173px] backdrop-blur-[5.1px]">
                   <Image
-                    src="/performancecard2.svg"
+                    src="/PerformanceCard2.svg"
                     alt="Second performance metric card"
                     width={202}
                     height={173}

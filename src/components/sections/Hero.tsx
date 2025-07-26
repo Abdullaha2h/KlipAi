@@ -33,7 +33,7 @@ const Hero = () => {
 
                     {/* First Card Image */}
                     <Image
-                        src="/card1.png"
+                        src="/Card1.png"
                         alt="First credit card illustration"
                         width={129}
                         height={38}
@@ -43,7 +43,7 @@ const Hero = () => {
 
                     {/* Second Card Image */}
                     <Image
-                        src="/card2.png"
+                        src="/Card2.png"
                         alt="Second credit card illustration"
                         width={155}
                         height={42}

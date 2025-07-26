@@ -20,7 +20,7 @@ const OwnershipCard: React.FC<OwnershipCardProps> = ({
             {showPlusIcon && (
                 <div className=" absolute top-[24.6px] right-[24.6px] w-[35px] h-[35px] flex items-center justify-center">
                     <Image
-                        src="/plusicon.png"
+                        src="/PlusIcon.png"
                         alt="Plus Icon"
                         width={35}
                         height={35}
