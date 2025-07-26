@@ -28,7 +28,7 @@ Follow the steps below to run the project locally:
 ```bash
 git clone https://github.com/Abdullaha2h/KlipAi.git
 cd KlipAi
-
+```
 ## 📐 Figma Mapping
 
 All sections, typography, spacing, and layout have been implemented to match the Figma design exactly. Custom widths and heights (e.g., `w-[411px]`, `h-[838px]`) were used where specified to ensure pixel perfection.
