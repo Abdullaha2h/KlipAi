@@ -2,21 +2,38 @@ import React from 'react'
 import Image from "next/image";
 const Features = () => {
     return (
-        <div className="w-[440px] h-[597px] flex flex-col items-center justify-center">
+        <div className=" h-[597px] flex flex-col items-center justify-center">
 
             {/* Visuals */}
 
-            <div className="w-[408px] h-[341px] overflow-hidden pt-16 flex flex-col items-center  rounded-[8.86px] border-[1.11px] border-[#EDEDED] bg-[#F4F2F0]" >
+            <div className="w-[408px] h-[341px] overflow-hidden relative flex flex-col items-center  rounded-[8.86px] border-[1.11px] border-[#EDEDED] bg-[#F4F2F0]" >
 
                 <Image
                     src="/BitPhone.png"
                     alt="BitPhone"
                     width={210}
                     height={426}
-                    className=" top-[64px] left-[99px] w-[210px] h-[426px]"
-                    priority
+                    className=" w-[210px] h-[426px] mt-16"
+                    
                 />
+           
+                  <Image
+        src="/bitCard1.png"
+        alt="BitCard1"
+        width={161}
+        height={43}
+        className="absolute left-[4px] top-[46px] z-10 object-cover"
+        priority
+      />
 
+      <Image
+        src="/bitCard2.png"
+        alt="BitCard2"
+        width={245}
+        height={51}
+        className="absolute left-[262px] top-[181px] z-10 "
+        priority
+      />
             </div>
             {/* What is KLIPAI */}
             <div className="mt-10 flex flex-col items-center">
