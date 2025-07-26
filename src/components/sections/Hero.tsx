@@ -17,9 +17,10 @@ const Hero = () => {
       <div className="md:order-4 relative flex items-center justify-center">
         <div className="relative w-[380px] h-[476px] md:w-[586px] md:h-[586px]">
           {/* Green Blur */}
-          <div className="absolute top-[281px] md:top-[418px] left-1/2 -translate-x-1/2 w-[588px] h-[417px] md:w-[666px] md:h-[415px] bg-[#51FC8B] blur-[300px] rounded-full z-0" />
+          <div className="absolute top-[281px] md:top-[418px] left-1/2 -translate-x-1/2 w-[588px] h-[417px] md:w-[666px] md:h-[415px] bg-[#51FC8B] blur-[300px] rounded-full z-0 " />
 
           {/* Card 1 */}
+        
           <Image
             src="/card1.png"
             alt="Card 1"
@@ -62,7 +63,7 @@ const Hero = () => {
       </div>
 
       {/* Description Paragraph */}
-      <p className="absolute top-[868px] md:top-[290px] left-1/2 -translate-x-1/2 text-center text-[12px] md:text-[16px] w-[296px] md:w-[501px] font-sora text-black font-normal capitalize z-10">
+      <p className="absolute top-[868px] md:top-[290px] left-1/2 -translate-x-1/2 text-center text-[12px] md:text-[16px] w-[501px] h-[30px] md:[52px] font-sora text-black font-normal capitalize z-10">
         Klip is your all-in-one decentralized wallet <br />
         designed for security, flexibility, and full ownership.
       </p>

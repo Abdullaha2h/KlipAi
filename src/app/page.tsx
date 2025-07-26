@@ -1,10 +1,11 @@
+import Features from "@/components/sections/Features";
 import Hero from "@/components/sections/Hero";
-import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="">
+    <main className="overflow-x-hidden">
       <Hero/> 
-    </div>
+      <Features/>
+    </main>
   );
 }
