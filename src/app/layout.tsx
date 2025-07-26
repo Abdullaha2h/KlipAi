@@ -4,11 +4,10 @@ import "./globals.css";
 import Header from "../components/layout/Header";
 import { Sora } from 'next/font/google';
 
-// Font configurations
 const sora = Sora({
   subsets: ['latin'],
   variable: '--font-sora',
-  weight: ['400', '600', '700'] // Include all needed weights
+  weight: ['400', '600', '700'] 
 });
 
 const geistSans = Geist({
